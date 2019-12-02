@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Upload</title>
+</head>
+<body>
+
+    
+    <h1>{{ msg }}</h1>
+    
+    
+    <h1>Upload the Image file</h1>
+    
+    <form method=POST enctype=multipart/form-data action="{{ url_for('predict') }}">
+      <p><input type=file name=photo>
+         <input type="submit">
+    </form>
+
+    <h1>Result:</h1>
+    
+     <!-- <img src="{{ img_src }}"> -->
+    
+    
+    
+      <p> The extracted text from the image above is: <b> {{ extracted_text }} </b></p>
+    
+    
+  </body>
+</html>
+    
