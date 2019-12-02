@@ -1,4 +1,3 @@
-# API-extract-date-from-images
 # Prerequisites
 refer to the requirements.txt file
 
